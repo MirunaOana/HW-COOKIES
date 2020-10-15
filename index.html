@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="main.js" defer></script>
+
+</head>
+
+<body>
+
+    <div>
+        Choose what value (C or F) you would prefer the temperature to be displayed in:
+        <label><input type="radio" name="temp" data-temp="c">&#8451;</label> <label><input type="radio" name="temp" checked="checked" data-temp="f">&#8457;</label>
+
+    </div>
+
+    <br>
+
+    <div>Average temperature in Brasov: <span data-temp="degrees"> </span></div>
+
+    <br>
+
+    <div>Min Temperature: <span data-temp="min"></span></div>
+
+    <br>
+
+    <div>Max Temperature: <span data-temp="max"></span></div>
+
+</body>
+</html>
